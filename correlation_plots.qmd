@@ -1,0 +1,51 @@
+Ok RRRR.
+
+```{r}
+library(tidyverse)
+library(ggplot2)
+```
+
+Load in the csv files and make scatterplots using ggplot
+
+```{r}
+distance_vs_distance <- read_csv("distance_dists.csv")
+age_diff_vs_distance <- read_csv("ages_dists.csv")
+
+# Run correlation tests
+cor_age <- cor.test(age_diff_vs_distance$age_diff, age_diff_vs_distance$pairwise_diff)
+cor_distance <- cor.test(distance_vs_distance$dist_diff, distance_vs_distance$pairwise_diff)
+
+# Format correlation and p-value for display
+age_label <- paste0("r = ", round(cor_age$estimate, 2),
+                    ", p = ", signif(cor_age$p.value, 3))
+
+distance_label <- paste0("r = ", round(cor_distance$estimate, 2),
+                         ", p = ", signif(cor_distance$p.value, 3))
+
+# Plot 1: Age Difference vs Pairwise Difference
+plot_age <- ggplot(age_diff_vs_distance, aes(x = age_diff, y = pairwise_diff)) +
+  geom_point(color = "darkgoldenrod", size = 3) +
+  geom_smooth(method = "lm", se = TRUE, color = "red") +  # optional trend line
+  annotate("text", x = max(age_diff_vs_distance$age_diff)*0.7,
+           y = max(age_diff_vs_distance$pairwise_diff)*0.9,
+           label = age_label, hjust = 0, family = "Gill Sans", size = 5) +
+  labs(title = "Pairwise Difference vs Age Difference",
+       x = "Age Difference (Years)",
+       y = "Pairwise Difference") +
+  theme_minimal(base_family = "Gill Sans")
+
+# Plot 2: Physical Distance vs Pairwise Difference
+plot_dist <- ggplot(distance_vs_distance, aes(x = dist_diff, y = pairwise_diff)) +
+  geom_point(color = "darkblue", size = 3) +
+  geom_smooth(method = "lm", se = TRUE, color = "red") +
+  annotate("text", x = max(distance_vs_distance$dist_diff)*0.7,
+           y = max(distance_vs_distance$pairwise_diff)*0.9 + 10,
+           label = distance_label, hjust = 0, family = "Gill Sans", size = 5) +
+  labs(title = "Pairwise Distance vs Physical Distance",
+       x = "Physical Distance (km)",
+       y = "Pairwise Difference") +
+  theme_minimal(base_family = "Gill Sans")
+
+ggsave("plot_age_difference.png", plot = plot_age, width = 7, height = 5, dpi = 300)
+ggsave("plot_distance_difference.png", plot = plot_dist, width = 7, height = 5, dpi = 300)
+```
