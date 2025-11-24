@@ -1,0 +1,24 @@
+SRR,Sample_Name,Location,Latitude,Longitude,Century,Age,Age-unformatted,Source,Bioproject,sz
+SRR15512519,KirkHill_lep_udg,"Kirk Hill, St. Andrews, Scotland",56.34,-2.7987,1000s,1092-00-00,1030-1155,"Pfrengle et al., 2021; doi: https://doi.org/10.1186/s12915-021-01120-2",,3
+SRR15512549,CHRY023_ML9_lep_udg,"Cherry Hinton, Cambridge, UK",52.19,0.18,1000s,1098-00-00,1034-1162,"Pfrengle et al., 2021; doi: https://doi.org/10.1186/s12915-021-01120-2",,3
+SRR15512610,UF803_lep_udg,"Sant Llàtzer, Barcelona, Spain",41.3796,2.1664,1100s,1150-00-00,1100-1250,"Pfrengle et al., 2021; doi: https://doi.org/10.1186/s12915-021-01120-2",,9
+SRR15512634,UF800_lep_udg,"Sant Llàtzer, Barcelona, Spain",41.3796,2.1664,1000s,1090-00-00,1023-1157,"Pfrengle et al., 2021; doi: https://doi.org/10.1186/s12915-021-01120-2",,9
+SRR15512644,UF25_lep_udg,"Sant Llàtzer, Barcelona, Spain",41.3796,2.1664,1400s,1444-00-00,1423-1466,"Pfrengle et al., 2021; doi: https://doi.org/10.1186/s12915-021-01120-2",,9
+SRR15512649,UF21_lep_udg,"Sant Llàtzer, Barcelona, Spain",41.3796,2.1664,1500s,1521-00-00,1431-1611,"Pfrengle et al., 2021; doi: https://doi.org/10.1186/s12915-021-01120-2",,9
+SRR15512655,UF11_lep_udg,"Sant Llàtzer, Barcelona, Spain",41.3796,2.1664,1700s,1700-00-00,1700-1799,"Pfrengle et al., 2021; doi: https://doi.org/10.1186/s12915-021-01120-2",,9
+SRR15512662,UF8_lep_udg,"Sant Llàtzer, Barcelona, Spain",41.3796,2.1664,1500s,1500-00-00,1500-1599,"Pfrengle et al., 2021; doi: https://doi.org/10.1186/s12915-021-01120-2",,9
+SRR15512685,COR_XVIII_lep_udg,"Cordiñanes de Valdeón, León, Spain",43.1676,-4.9036,1100s,1250-00-00,1100-1250,"Pfrengle et al., 2021; doi: https://doi.org/10.1186/s12915-021-01120-2",,3
+SRR15512699,UF800_lep_udg,"Sant Llàtzer, Barcelona, Spain",41.3796,2.1664,1100s,1090-00-00,1023-1157,"Pfrengle et al., 2021; doi: https://doi.org/10.1186/s12915-021-01120-2",,9
+SRR15512704,UF703_lep_udg,"Sant Llàtzer, Barcelona, Spain",41.3796,2.1664,1100s,1100-00-00,1035-1165,"Pfrengle et al., 2021; doi: https://doi.org/10.1186/s12915-021-01120-2",,9
+SRR15512716,UF700_lep_udg,"Sant Llàtzer, Barcelona, Spain",41.3796,2.1664,1100s,1124-00-00,1040-1208,"Pfrengle et al., 2021; doi: https://doi.org/10.1186/s12915-021-01120-2",,9
+SRR28001551,MMW_H50_1,"St Mary Magdalen, Winchester, GB",51.062821,-1.313557,1300s,1321-00-00,1265-1377,"Urban et al., 2024",PRJNA1021938,5
+SRR28001598,MMW_H80_1,"St Mary Magdalen, Winchester, GB",51.062821,-1.313557,1000s,1057-00-00,991-1123,"Urban et al., 2024",PRJNA1021938,5
+SRR6263249,Body 188,"Prusanky, Czech Republic",48.8286,16.9803,800s,0850-00-00,800-899,"Schuenemann et al., 2018; doi: https://doi.org/10.1371/journal.ppat.1006997",PRJNA417381,3
+SRR6263250,SK11,"Puspokladany-Eperjesvolgy, Hungary",47.2426,21.0806,600s,0650-00-00,600-699,"Schuenemann et al., 2018; doi: https://doi.org/10.1371/journal.ppat.1006997",PRJNA417381,3
+SRR6263251,T18,"Vicenne, Italy",42.2702,14.1795,600s,0675-00-00,600-650,"Schuenemann et al., 2018; doi: https://doi.org/10.1371/journal.ppat.1006997",PRJNA417381,3
+SRR6263252,GC96,United Kingdom: Great Chesterford,52.0628,0.1968,400s,0480-00-00,415–545,"Schuenemann et al., 2018; doi: https://doi.org/10.1371/journal.ppat.1006997",PRJNA417381,3
+SRR847034,SK2,"St Mary Magdalen, Winchester, GB",51.062821,-1.313557,1200s,1275-00-00,1268-1283,"Mendum et al., 2014",PRJNA200950,5
+SRR847038,3077,Sweden,60.1282,18.6435,900s,0938-00-00,938,"https://www.science.org/doi/10.1126/science.1238286",PRJNA200950,3
+SRR847050,Jorgen_625,"St. Jorgen Cemetery, Odense, Denmark",55.396,9.388,600s,0644-00-00,644,"https://www.science.org/doi/10.1126/science.1238286",PRJNA200950,3
+SRR847064,SK14,"St Mary Magdalen, Winchester, GB",51.062821,-1.313557,900s,0944-00-00,955-1033,"Mendum et al., 2014",PRJNA200950,5
+SRR847069,SK8,"St Mary Magdalen, Winchester, GB",51.062821,-1.313557,1000s,1085-00-00,1010-1160,"Mendum et al., 2014",PRJNA200950,5
